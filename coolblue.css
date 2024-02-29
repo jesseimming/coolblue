@@ -1,0 +1,187 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.blauwe-balk {
+  background-color: #0190e2;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.header__logo-link {
+  margin-right: 25px;
+}
+
+.header__logo-image {
+  height: 64px;
+  fill: white;
+}
+
+.form-container {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.titles-container {
+  padding: 20px;
+}
+
+h2,
+h4 {
+  text-align: left;
+  padding-left: 20px;
+}
+
+h2 {
+  color: #285dab;
+}
+
+.period {
+  color: #ff6701;
+}
+
+h4 {
+  color: rgb(0, 145, 226);
+}
+
+p {
+  text-align: center;
+}
+
+.type_bestelling {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-right: 300px;
+}
+
+.type_bestelling_text {
+  margin-right: 25px;
+}
+
+.aanhef {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-right: 300px;
+}
+
+.aanhef_text {
+  margin-right: 25px;
+}
+
+.naam {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-right: 300px;
+  padding-left: 90px;
+}
+
+.name_form {
+  display: flex;
+}
+
+.name_text {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.postcode {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-right: 300px;
+  padding-left: 90px;
+}
+
+.postcode_text {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.huisnummer {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-right: 200px;
+  padding-left: 90px;
+}
+
+.huisnummer_text {
+  margin-right: 25px;
+}
+
+.land {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-right: 200px;
+  padding-left: 90px;
+}
+
+.land_text {
+  margin-right: 25px;
+}
+
+.afleveradres {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-right: 300px;
+}
+
+.aflever_text {
+  margin-right: 25px;
+}
+
+.email {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-right: 200px;
+  padding-left: 90px;
+}
+
+.email_text {
+  margin-right: 25px;
+}
+
+.telefoonnummer {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-right: 200px;
+  padding-left: 90px;
+}
+
+.telefoon_text {
+  margin-right: 25px;
+}
+
+.datum {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-right: 200px;
+  padding-left: 90px;
+}
+
+.datum_text {
+  margin-right: 25px;
+}
