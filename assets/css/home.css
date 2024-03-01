@@ -5,12 +5,17 @@
   border: 1px solid blue;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .blauwe-balk {
   background-color: #0190e2;
-  padding: 10px;
+  padding: 5px;
   display: flex;
   align-items: center;
-  height: 50px;
+  height: 36px;
 }
 
 #top {
@@ -49,41 +54,41 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 10vh; /* Adjust this as needed */
+  height: 10vh;
 }
 
 #product1 {
-  border: 1px solid #000; /* Creates a box around the product */
-  width: 300px; /* Adjust this as needed */
+  border: 1px solid #000;
+  width: 300px;
   padding: 10px;
 }
 
 #product2 {
-  border: 1px solid #000; /* Creates a box around the product */
-  width: 300px; /* Adjust this as needed */
+  border: 1px solid #000;
+  width: 300px;
   padding: 10px;
 }
 
 #product3 {
-  border: 1px solid #000; /* Creates a box around the product */
-  width: 300px; /* Adjust this as needed */
+  border: 1px solid #000;
+  width: 300px;
   padding: 10px;
 }
 
 #product4 {
-  border: 1px solid #000; /* Creates a box around the product */
-  width: 300px; /* Adjust this as needed */
+  border: 1px solid #000;
+  width: 300px;
   padding: 10px;
 }
 
 #product5 {
-  border: 1px solid #000; /* Creates a box around the product */
-  width: 300px; /* Adjust this as needed */
+  border: 1px solid #000;
+  width: 300px;
   padding: 10px;
 }
 
 #product6 {
-  border: 1px solid #000; /* Creates a box around the product */
+  border: 1px solid #000;
   width: 300px; /* Adjust this as needed */
   padding: 10px;
 }
@@ -161,44 +166,44 @@
 }
 
 #product19 {
-  border: 1px solid #000; /* Creates a box around the product */
-  width: 300px; /* Adjust this as needed */
+  border: 1px solid #000;
+  width: 300px;
   padding: 10px;
 }
 
 #product20 {
-  border: 1px solid #000; /* Creates a box around the product */
-  width: 300px; /* Adjust this as needed */
+  border: 1px solid #000;
+  width: 300px;
   padding: 10px;
 }
 
 #product21 {
-  border: 1px solid #000; /* Creates a box around the product */
-  width: 300px; /* Adjust this as needed */
+  border: 1px solid #000;
+  width: 300px;
   padding: 10px;
 }
 
 #product22 {
-  border: 1px solid #000; /* Creates a box around the product */
-  width: 300px; /* Adjust this as needed */
+  border: 1px solid #000;
+  width: 300px;
   padding: 10px;
 }
 
 #product23 {
-  border: 1px solid #000; /* Creates a box around the product */
-  width: 300px; /* Adjust this as needed */
+  border: 1px solid #000;
+  width: 300px;
   padding: 10px;
 }
 
 #product24 {
-  border: 1px solid #000; /* Creates a box around the product */
-  width: 300px; /* Adjust this as needed */
+  border: 1px solid #000;
+  width: 300px;
   padding: 10px;
 }
 
 #product25lastviewed {
-  border: 1px solid #000; /* Creates a box around the product */
-  width: 300px; /* Adjust this as needed */
+  border: 1px solid #000;
+  width: 300px;
   padding: 10px;
 }
 

@@ -11,7 +11,7 @@
       <a
         class="header__logo-link"
         id="coolblue_logo"
-        href="home.html"
+        href="index.html"
         title="Coolblue home"
         data-component='[{"name":"trackEventType","options":{"type":"click","ga":{"category":"header","action":"coolblue logo"},"ga4":{"name":"home_navigation.select_home","params":{"sub_feature":"header","index":1,"total_indices":1,"url":"/en","redirect":"Coolblue home"}}},"processed":true,"id":"0"}]'
       >
@@ -31,8 +31,6 @@
             fill="#FFF"
           ></path>
         </svg>
-
-        <title>Coolblue</title>
       </a>
     </div>
 
@@ -43,29 +41,29 @@
 
     <div class="form-container">
 
-    <div class="type_bestelling">
-      <p class="type_bestelling_text">Type Bestelling</p>
-      <div>
-        <label for="particulier">Particulier</label>
-        <input type="radio" id="particulier" name="bestellingType" />
+      <div class="type_bestelling">
+        <p class="type_bestelling_text">Type Bestelling</p>
+        <div>
+          <label for="particulier">Particulier</label>
+          <input type="radio" id="particulier" name="bestellingType" />
+        </div>
+        <div>
+          <label for="zakelijk">Zakelijk</label>
+          <input type="radio" id="zakelijk" name="bestellingType" />
+        </div>
       </div>
-      <div>
-        <label for="zakelijk">Zakelijk</label>
-        <input type="radio" id="zakelijk" name="bestellingType" />
-      </div>
-    </div>
-
-    <div class="aanhef">
-      <p class="aanhef_text">Aanhef</p>
-      <div>
-        <label for="dhr">Dhr.</label>
-        <input type="radio" id="particulier" name="bestellingType" />
-      </div>
-      <div>
-        <label for="mevr">Mevr.</label>
-        <input type="radio" id="zakelijk" name="bestellingType" />
-      </div>
-    </div>
+      
+      <div class="aanhef">
+        <p class="aanhef_text">Aanhef</p>
+        <div>
+          <label for="dhr">Dhr.</label>
+          <input type="radio" id="dhr" name="aanhef" />
+        </div>
+        <div>
+          <label for="mevr">Mevr.</label>
+          <input type="radio" id="mevr" name="aanhef" />
+        </div>
+      </div>      
 
       <div class="naam">
         <p class="name_text">Naam</p>
@@ -93,8 +91,9 @@
 
       <form class="postcode">
         <p class="postcode_text">Postcode</p>
-        <input type="text" id="postcode" name="Postcode" placeholder="1234AB" />
+        <input type="text" id="postcode" name="Postcode" placeholder="1234AB" pattern="[0-9]{4}[A-Za-z]{2}" title="Please enter a valid postcode (e.g., 1234AB)" required />
       </form>
+      
 
       <form class="huisnummer">
           <p class="huisnummer_text">Huisnummer</p>
@@ -199,10 +198,11 @@
   <input type="password" id="pass" name="password" minlength="6" required />
 </div>
 
-</div>
+<a href="/"><button class="bn632-hover bn26" id="submitBtn" onclick="return validateForm()">Verzenden</button></a>
 
-    <footer>
 
-    </footer>
+
+<script src="assets/js/form.js"></script>
+
   </body>
 </html>
