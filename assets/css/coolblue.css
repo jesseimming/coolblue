@@ -302,3 +302,66 @@ p {
   );
   box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
 }
+
+@media (max-width: 768px) {
+  .type_bestelling,
+  .aanhef,
+  .naam,
+  .postcode,
+  .huisnummer,
+  .land,
+  .afleveradres,
+  .email,
+  .telefoonnummer,
+  .datum,
+  .nieuwsbrief,
+  .verzendwijze,
+  .kleur,
+  .wachtwoord,
+  .wachtwoordbevestig {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .wachtwoordtxt {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .bn632-hover {
+    margin: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .type_bestelling,
+  .aanhef,
+  .naam,
+  .postcode,
+  .huisnummer,
+  .land,
+  .afleveradres,
+  .email,
+  .telefoonnummer,
+  .datum,
+  .nieuwsbrief,
+  .verzendwijze,
+  .kleur,
+  .wachtwoord,
+  .wachtwoordbevestig {
+    padding-right: 0px;
+    padding-left: 0px;
+    justify-content: left;
+  }
+
+  .wachtwoordtxt {
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 8px;
+  }
+
+  .bn632-hover {
+    margin: 10px;
+    font-size: 14px;
+  }
+}

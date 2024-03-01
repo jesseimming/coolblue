@@ -48,14 +48,14 @@ function validateForm() {
     return false;
   }
 
-  if (allFilled) {
-    document.getElementById("opBovenstaandAdres").checked = true;
-    document.getElementById("factuuremail").checked = true;
-    return true;
-  } else {
+  if (!allFilled) {
     alert("Please fill out all the required fields.");
     return false;
   }
+
+  document.getElementById("opBovenstaandAdres").checked = true;
+  document.getElementById("factuuremail").checked = true;
+  return true;
 }
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -63,8 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
     .getElementById("myForm")
     .addEventListener("submit", function (event) {
       event.preventDefault();
-      if (validateForm()) {
-        this.submit();
-      }
+
+      validateForm();
     });
 });
