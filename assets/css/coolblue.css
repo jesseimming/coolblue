@@ -23,8 +23,8 @@ body {
 }
 
 .form-container {
-  padding: 20px;
-  margin-top: 20px;
+  padding: 30px;
+  margin-top: 15px;
 }
 
 .titles-container {
@@ -58,7 +58,8 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-right: 300px;
+  padding-right: 200px;
+  padding-left: 90px;
 }
 
 .type_bestelling_text {
@@ -70,7 +71,8 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-right: 300px;
+  padding-right: 200px;
+  padding-left: 90px;
 }
 
 .aanhef_text {
@@ -140,7 +142,8 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-right: 300px;
+  padding-right: 200px;
+  padding-left: 90px;
 }
 
 .aflever_text {
@@ -184,4 +187,79 @@ p {
 
 .datum_text {
   margin-right: 25px;
+}
+
+.nieuwsbrief {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-right: 200px;
+  padding-left: 90px;
+}
+
+.nieuws_text {
+  margin-right: 25px;
+}
+
+.verzendwijze {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-right: 200px;
+  padding-left: 90px;
+}
+
+.verzend_text {
+  margin-right: 25px;
+}
+
+.kleur {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-right: 200px;
+  padding-left: 90px;
+}
+
+.kleur_text {
+  margin-right: 25px;
+}
+
+.colorpick {
+  width: 150px;
+}
+
+.wachtwoord {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-right: 200px;
+  padding-left: 90px;
+}
+
+.wachtwoordbevestig {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-right: 200px;
+  padding-left: 90px;
+}
+
+.wachtwoordtxt {
+  margin-right: 25px;
+  color: #595959;
+  font-size: 10px;
+  padding-right: 200px;
+  padding-left: 90px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }

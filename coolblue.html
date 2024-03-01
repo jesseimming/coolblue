@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="coolblue.css" />
+    <link rel="stylesheet" href="assets\css\coolblue.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coolblue</title>
@@ -41,6 +41,8 @@
       <h4>Wat moet er op het factuur staan?</h4>
     </div>
 
+    <div class="form-container">
+
     <div class="type_bestelling">
       <p class="type_bestelling_text">Type Bestelling</p>
       <div>
@@ -65,7 +67,6 @@
       </div>
     </div>
 
-    <div class="form-container">
       <div class="naam">
         <p class="name_text">Naam</p>
         <form class="name_form">
@@ -111,7 +112,6 @@
               placeholder="Toev."
             />
           </form>
-        </div>
 
       <div class="land">
         <p class="land_text">Land</p>
@@ -158,17 +158,51 @@
         />
       </form>
       
-      <p>Verzendwijze factuur</p>
-      <p>Nieuwsbrief</p>
-      <p>Kleur Verpakking</p>
-      <h2>Bewaar je gegevens <span class="period">.</span></h2>
-      <h4>Handig voor de volgende keer.</h4>
-      <p>Wachtwoord</p>
-      <p>Wachtwoord bevestigen</p>
+      <div class="verzendwijze">
+        <p class="verzend_text">Verzendwijze factuur</p>
+        <div>
+          <label for="email">Factuur per e-mail</label>
+          <input type="radio" id="factuuremail" name="factuur" />
+        </div>
+        <div>
+          <label for="print">Factuur geprint bij bestelling</label>
+          <input type="radio" id="factuurprint" name="factuur" />
+        </div>
+      </div>
+
+      <div class="nieuwsbrief">
+        <p class="nieuws_text">Nieuwsbrief</p>
+        <input type="checkbox" id="nieuwsbrief"/>
+        <label for="nieuwsbrief">Ja, ik wil de Coolblue-nieuwsbrief met <span style="color: #F97229; font-weight: bold;">€5,- cadeaubon</span> voor mijn volgende bestelling</label>
     </div>
 
+      <div class="kleur">
+        <p class="kleur_text">Kleur verpakking</p>
+        <form>
+          <input type="color" id="packageColor" class="colorpick" name="packageColor">
+      </form>
+      </div>
+
+      <h2>Bewaar je gegevens <span class="period">.</span></h2>
+      <h4>Handig voor de volgende keer.</h4>
+
+      <div class="wachtwoord">
+  <label for="pass">Wachtwoord</label>
+  <input type="password" id="pass" name="password" minlength="6" required />
+</div>
+
+<p class="wachtwoordtxt">Minimaal 6 karakters.</p>
+<p class="wachtwoordtxt">Verder doen we niet zo moeilijk.</p>
+
+<div class="wachtwoordbevestig">
+  <label for="passbevestig">Wachtwoord bevestigen</label>
+  <input type="password" id="pass" name="password" minlength="6" required />
+</div>
+
+</div>
+
     <footer>
-      <p>&copy; 2021 Coolblue</p>
+
     </footer>
   </body>
 </html>
